@@ -11,16 +11,12 @@ Sholl Analysis
 Note: ImageJ/FIJI updates to the Sholl Analysis function may change in different versions. A workaround is to install the older version of the Sholl Analysis plugin by putting the jar file from this repo into your plugins folder within FIJI.
 
 Required packages for R:
-plyr
-ggplot2
-reshape
-car
-agricolae
-xlsx
-lme4
-nlme
-multcomp
-rstudioapi
+ggplot2 [v3.4.0], 
+reshape [v0.8.8], 
+car [v3.0-8]
+nlme [v3.1-148]
+multcomp [v1.4-13]
+rstudioapi [v0.11]
 
 Input data:
 1. Merged Sholl Analysis files saved as .csv files. See example files named Cond0[]_Rep[].csv. All files must have some common string such as 'Cond' etc. <b> Critical step!: </b> ALL images names must be unique across the entire data set. Your data set and key should appear in a single experiment computer directory. 
