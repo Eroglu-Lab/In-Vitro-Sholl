@@ -27,9 +27,9 @@ Input data:
 2. Key file saved as a csv See example file.  L1 is just the list number as it appears in order on your computer. <b> Critical step!:</b> the key file must list your files in the SAME ORDER as they appear in your computer folder. Typically this is alphanumerically. See  comment on code line 64 of R script.
 
 Output:
-Sholl analysis graphs for each replicate and the average across replicates
-All merged data
-ANOVA model output and Tukey post-hoc output
+1. Sholl analysis graphs for each replicate and the average across replicates
+2. All merged data
+3. ANOVA model output and Tukey post-hoc output
 
 Citations:
 Wilson, M. D., Sethi, S., Lein, P. J., & Keil, K. P. (2017). Valid statistical approaches for analyzing sholl data: Mixed effects versus simple linear models. Journal of neuroscience methods, 279, 33-43. PMID: 28104486
