@@ -1,18 +1,13 @@
 #authors Krissy Sakers and Justin Savage
 #kristina.sakers@duke.edu
 #Version 2.0
-#3/6/20
+#3/31/2023
 
 
 #install all of these first with install.packages('package name')
-library(plyr)
-library(stringr)
 library(ggplot2)
 library(reshape)
 library(car)
-library(agricolae)
-library(xlsx)
-library(lme4)
 library(nlme)
 require(multcomp)
 library(rstudioapi)
