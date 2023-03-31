@@ -1,4 +1,4 @@
-# Sholl_Macro
+# Sholl Analysis in R
 
 R analysis code for analyzing fluroescence microscopy images to determine the complexity of cultured astrocytes. 
 
