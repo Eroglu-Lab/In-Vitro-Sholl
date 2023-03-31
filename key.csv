@@ -1,0 +1,7 @@
+Condition,Name,L1,rep
+shTest,Cond01_Rep1,1,1
+shTest,Cond01_Rep2,2,2
+shTest,Cond01_Rep3,3,3
+shCtrl,Cond02_Rep1,4,1
+shCtrl,Cond02_Rep2,5,2
+shCtrl,Cond02_Rep3,6,3
