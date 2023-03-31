@@ -1,5 +1,36 @@
 # Sholl_Macro
 
-A macro for analyzing fluroescence microscopy images to determine the complexity of cultured astrocytes. 
+R analysis code for analyzing fluroescence microscopy images to determine the complexity of cultured astrocytes. 
 
-Note: ImageJ/FIJI has stopped coming with Sholl Analysis installed and the new version that can be installed through the Neuroanatomy update site is not compatible with this macro. A workaround is to install the older version of the Sholl Analysis plugin by putting the jar file from this repo into your plugins folder within FIJI.
+Required programs:
+ImageJ/FIJI https://imagej.net/software/fiji/
+R and R Studio: https://posit.co/download/rstudio-desktop/. Note this script was tested with R 4.0.0 and R studio 2022.07.1 Build 554. Updates to R may deprecate parts of the code. Please report an issue if so.
+
+Required packages for ImageJ/FIJI:
+Sholl Analysis 
+Note: ImageJ/FIJI updates to the Sholl Analysis function may change in different versions. A workaround is to install the older version of the Sholl Analysis plugin by putting the jar file from this repo into your plugins folder within FIJI.
+
+Required packages for R:
+plyr
+ggplot2
+reshape
+car
+agricolae
+xlsx
+lme4
+nlme
+multcomp
+rstudioapi
+
+Input data:
+1. Merged Sholl Analysis files saved as .csv files. See example files named Cond0[]_Rep[].csv. All files must have some common string such as 'Cond' etc. <b> Critical step!: </b> ALL images names must be unique across the entire data set. Your data set and key should appear in a single experiment computer directory. 
+2. Key file saved as a csv See example file.  L1 is just the list number as it appears in order on your computer. <b> Critical step!:</b> the key file must list your files in the SAME ORDER as they appear in your computer folder. Typically this is alphanumerically. See  comment on code line 64 of R script.
+
+Output:
+Sholl analysis graphs for each replicate and the average across replicates
+All merged data
+ANOVA model output and Tukey post-hoc output
+
+Citations:
+Wilson, M. D., Sethi, S., Lein, P. J., & Keil, K. P. (2017). Valid statistical approaches for analyzing sholl data: Mixed effects versus simple linear models. Journal of neuroscience methods, 279, 33-43. PMID: 28104486
+https://github.com/adrigabzu/sholl_analysis_in_R
