@@ -3,8 +3,8 @@
 R analysis code for analyzing fluroescence microscopy images to determine the complexity of cultured astrocytes. 
 
 Required programs:
-ImageJ/FIJI https://imagej.net/software/fiji/
-R and R Studio: https://posit.co/download/rstudio-desktop/. Note this script was tested with R 4.0.0 and R studio 2022.07.1 Build 554. Updates to R may deprecate parts of the code. Please report an issue if so.
+1. ImageJ/FIJI https://imagej.net/software/fiji/
+2. R and R Studio: https://posit.co/download/rstudio-desktop/. Note this script was tested with R 4.0.0 and R studio 2022.07.1 Build 554. Updates to R may deprecate parts of the code. Please report an issue if so.
 
 Required packages for ImageJ/FIJI:
 Sholl Analysis 
