@@ -29,6 +29,11 @@ Output:
 2. All merged data
 3. ANOVA model output and Tukey post-hoc output
 
+Expected output graphs:
+![image](https://user-images.githubusercontent.com/65187156/229165466-c081846f-b0a2-4f03-8e4f-795ebaacd643.png)
+
+
+
 Citations:
 Wilson, M. D., Sethi, S., Lein, P. J., & Keil, K. P. (2017). Valid statistical approaches for analyzing sholl data: Mixed effects versus simple linear models. Journal of neuroscience methods, 279, 33-43. PMID: 28104486
 https://github.com/adrigabzu/sholl_analysis_in_R
