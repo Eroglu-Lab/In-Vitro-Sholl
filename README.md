@@ -6,6 +6,8 @@ Required programs:
 1. ImageJ/FIJI https://imagej.net/software/fiji/ We have tested the Sholl analysis with ImageJ v1.53c and Java 1.8.0_172
 2. R and R Studio: https://posit.co/download/rstudio-desktop/. Note this script was tested with R 4.0.0 and R studio 2022.07.1 Build 554. Updates to R may deprecate parts of the code. Please report an issue if so.
 
+Total install time < 30 minutes
+
 Required packages for ImageJ/FIJI:
 Sholl Analysis 
 Note: ImageJ/FIJI updates to the Sholl Analysis function may change in different versions. A workaround is to install the older version of the Sholl Analysis plugin by putting the jar file from this repo into your plugins folder within FIJI.
