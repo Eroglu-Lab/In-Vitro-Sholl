@@ -31,6 +31,8 @@ Output:
 
 Expected output graphs:
 ![image](https://user-images.githubusercontent.com/65187156/229165466-c081846f-b0a2-4f03-8e4f-795ebaacd643.png)
+![image](https://user-images.githubusercontent.com/65187156/229168426-da42bf14-5421-4b36-b81d-70cc2786746a.png)
+
 
 
 
