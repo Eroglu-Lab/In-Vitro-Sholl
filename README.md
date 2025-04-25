@@ -37,6 +37,8 @@ Expected output graphs:
 
 Expected run time: < 10 minutes.
 
+This research was funded [in part] by Aligning Science Across Parkinson’s [ASAP-020607] through the Michael J. Fox Foundation for Parkinson’s Research (MJFF).
+
 
 
 Citations:
