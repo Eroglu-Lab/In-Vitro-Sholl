@@ -73,7 +73,7 @@ h$Condition <- as.factor(h$Condition) #added to add compatiblity with R 4.0
 cond_test_corAR <- nlme::lme(
   Intersections ~  1 + Condition,
   data = h,
-  random = ~ 1 | cellNum/Radius, #accounts for the repeated measures and that some cells are maybe at different stages of complexity regardless of treatment
+  random = ~ 1 | rep/Radius, #accounts for the repeated measures and that some cells are maybe at different stages of complexity regardless of treatment
   control = lmeControl(opt = "optim")
 )
 
@@ -100,3 +100,4 @@ colnames(mer) <- c('Condition', 'Replicate', 'Radius', 'Intersections')
 
 ggplot(mer, aes(x=Radius, y=Intersections, group=Condition, fill=Condition)) + stat_smooth(col='black', method='loess') + 
   ylab('# Intersections') + xlab ('Distance from Soma (um)') + ggtitle('this is my final figure')
+
